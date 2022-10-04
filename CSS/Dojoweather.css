@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    height: 90px;
+    width: 100%;
+    color: white;
+    background-color: rgb(130, 180, 227);
+    display: flex;
+    justify-content: center;
+}
+.nav-title{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.nav-links{
+    font-size: 22px;
+    width: 500px;
+    margin-left: 190px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.container{
+    margin: 0 auto;
+    width: 910px;
+}
+.L_nav{
+    height: 55px;
+    width: 875px;
+    margin-top: 15px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+.L_temp{
+    display: flex;
+}
+#temper{
+    margin-left: 7px;
+}
+.nav-title2{
+    font-size: 31px;
+}
+.main_c{
+    display: flex;
+    justify-content: space-between;
+}
+.weather{
+    height: 310px;
+    width: 300px;
+    margin-right: 30px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(235, 233, 233);
+}
+.Pics{
+    width: 130px;
+    height: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.titles{
+    margin-top: 15px;
+}
+.all_Deg{
+    font-size: 22px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#btn{
+    height: 32px;
+    width: 84px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(103, 182, 231);
+    border: 2px solid black;
+    font-size: 18px;
+    box-shadow: 5px 5px black;
+    margin-right: 35px;
+}
+#alert{
+    width: 875px;
+    display: flex;
+    position: fixed;
+    margin-top: 10px;
+    padding-top: 15px;
+    align-items: center;
+    padding-bottom: 15px;
+    border: 3px solid black;
+    background-color: rgb(235, 235, 235);
+    justify-content: space-around;
+}
+#Red_W1{
+    color: red;
+}
+#Blue_W1{
+    color: rgb(15, 139, 240);
+}
+#Red_W2{
+    color: red;
+}
+#Blue_W2{
+    color: rgb(15, 139, 240);
+}
+#Red_W3{
+    color: red;
+}
+#Blue_W3{
+    color: rgb(15, 139, 240);
+}
+#Red_W4{
+    color: red;
+}
+#Blue_W4{
+    color: rgb(15, 139, 240);
+}

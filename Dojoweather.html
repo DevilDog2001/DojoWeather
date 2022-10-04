@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Dojoweather.css">
+    <title>DojoWeather</title>
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">DojoWeather</h1>
+        <ul class="nav-links">
+            <li onclick="alertz()">Burbank</li>
+            <li onclick="alertz()">Chicago</li>
+            <li onclick="alertz()">Dallas</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="L_nav">
+            <h2 class="nav-title2" >San Jose</h2>
+            <div class="L_temp">
+                <p>Show temperature in</p>
+                <select name="degrees" id="temper" onchange="temp2()">
+                    <option value="a">°C</option>
+                    <option value="b">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="main_c">
+            <div class="weather">
+                <h1 class="titles">Today</h1>
+                <img class="Pics" src="./Images/some_rain.png" alt="">
+                <p>some rain</p>
+                <div class="all_Deg">
+                    <p id="Red_W1">24°</p>
+                    <p id="Blue_W1">18°</p>
+                </div>
+            </div>
+            <div class="weather">
+                <h1 class="titles">Tomorrow</h1>
+                <img class="Pics" src="./Images/some_sun.png" alt="">
+                <p>some sun</p>
+                <div class="all_Deg">
+                    <p id="Red_W2">27°</p>
+                    <p id="Blue_W2">19°</p>
+                </div>
+            </div>
+            <div class="weather">
+                <h1 class="titles">Friday</h1>
+                <img class="Pics" src="./Images/some_clouds.png" alt="">
+                <p>some clouds</p>
+                <div class="all_Deg">
+                    <p id="Red_W3">21°</p>
+                    <p id="Blue_W3">16°</p>
+                </div>
+            </div>
+            <div class="weather">
+                <h1 class="titles">Saturday</h1>
+                <img class="Pics" src="./Images/some_sun.png" alt="">
+                <p>some sun</p>
+                <div class="all_Deg">
+                    <p id="Red_W4">26°</p>
+                    <p id="Blue_W4">21°</p>
+                </div>
+            </div>
+        </div>
+        <div id="alert">
+            <img src="./Images/cookie.png" alt="alert" class="alert1">
+            <p><strong>Stop! Cookie time</strong><br>We use cookies (sadly not the edible ones) to personalize<br>content and ads, to provide social media features and to<br>analyse out traffic <a href="#">Read more...</a></p>
+            <button id="btn" onclick="accepted()"> I Accept</button>
+        </div>
+    </div>  
+    <script src="./Dojoweather.js"></script>
+</body>
+</html>
